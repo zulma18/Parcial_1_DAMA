@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Parcial_1_DAMA"
         tools:targetApi="31">
         <activity
+            android:name=".DescripcionProfesion"
+            android:exported="false"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
